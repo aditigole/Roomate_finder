@@ -71,7 +71,7 @@ def register():
         con.close()
 
         return f"""
-        <h3>Registration Successful</h3>
+        <h3>Registration  is Successful,Thanks for registering.</h3>
         <p>Your User ID is: <b>{uid}</b></p>
         <a href="/">Go to Login</a>
         """
