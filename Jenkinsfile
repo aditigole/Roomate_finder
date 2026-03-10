@@ -3,7 +3,13 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        powershell 'echo "Compiling"'
+        sh 'echo "Compiling"'
+      }
+    }
+
+    stage('Test') {
+      steps {
+        sh 'echo "Running Tests"'
       }
     }
 
